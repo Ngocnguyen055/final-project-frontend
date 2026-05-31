@@ -4,7 +4,7 @@
  * @param {string} url      The URL to issue the GET request.
  * @returns {Promise}       A Promise that resolves with the response data.
  */
-const backendBaseUrl = "http://localhost:8081";
+const backendBaseUrl = "https://h7fvhv-8081.csb.app";
 
 function getAuthHeaders() {
   const token = localStorage.getItem("token");
